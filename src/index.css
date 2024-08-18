@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary rounded  shadow   shadow-neutral-900;
+  }
+
+  .service-container {
+    @apply flex md:flex-row flex-col-reverse  px-0 items-center md:h-60 lg:h-72 xl:h-80;
+  }
+  .service-text-container {
+    @apply px-10 w-full md:w-1/2  py-5 p-0 md:pl-20   md:pr-5  lg:pl-32 lg:pr-5 xl:px-40  space-y-3;
+  }
+  .service-image-container {
+    @apply size-56  md:w-1/2 md:h-full   overflow-hidden rounded-full md:rounded-l-full md:rounded-r-none shadow-3xl shadow-[#071218];
+  }
+  .image-card {
+    @apply relative  md:h-52 md:w-36  lg:h-72 lg:w-44 xl:h-96  xl:w-60  overflow-hidden rounded-xl hover:scale-110 transition-all  shadow-xl shadow-secondary;
+  }
+}
+
+.left-hero-text {
+  writing-mode: vertical-lr;
+}
+
+body {
+  background-color: #0b1d27;
+}
+
+.fade-img {
+  position: relative;
+}
+
+.image-container {
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 90%,
+    /* where the gradient will start*/ rgba(0, 0, 0, 0) 98%
+      /* where it becomes compeletly transparent*/
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(0, 0, 0, 0) 98%
+  );
+}
