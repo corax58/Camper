@@ -29,12 +29,12 @@ const NavBar = () => {
           : "bg-transparent text-white"
       }`}
     >
-      <div className=" flex justify-between items-center px-10 md:px-20 py-1  transition-all  ">
+      <div className=" flex justify-between items-center px-5 md:px-20 py-1  transition-all  ">
         <div className="text-3xl font-bold ">CAMPER</div>
         <div className=" hidden space-x-10 md:flex">
-          <a href="#">Travel Map</a>
-          <a href="#">About Us</a>
-          <a href="#">Blog</a>
+          <a href="#travel_map">Travel Map</a>
+          <a href="#about_us">About Us</a>
+          <a href="#blog">Blog</a>
         </div>
         <div className=" hidden md:flex">Account</div>
         <div className="flex md:hidden ">
@@ -55,11 +55,11 @@ const NavBar = () => {
           (isExpanded ? " h-20  " : " h-0 ")
         }
       >
-        <a className="mt-2" href="#">
+        <a href="#travel_map" className="mt-2">
           Travel Map
         </a>
-        <a href="#">About Us</a>
-        <a href="#">Blog</a>
+        <a href="#about_us">About Us</a>
+        <a href="#blog">Blog</a>
       </div>
     </div>
   );

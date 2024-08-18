@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div className="space-y-20 md:space-y-32 mb-24 mt-32">
       {" "}
-      <div className="service-container ">
+      <section id="about_us" className="service-container ">
         <div className=" service-text-container" id="about-us">
           <div className="flex space-x-2 items-center">
             <div className=" h-0.5 w-10 bg-primary"></div>
@@ -32,8 +32,11 @@ const Services = () => {
         <div className="service-image-container ">
           <img src={section1} alt="" className="  object-cover size-full   " />
         </div>
-      </div>
-      <div className="service-container flex-col md:flex-row ">
+      </section>
+      <section
+        id="travel_map"
+        className="service-container flex-col md:flex-row "
+      >
         <div className=" service-image-container  md:rounded-l-none md:rounded-r-full">
           <img src={section2} alt="" className="  object-cover size-full   " />
         </div>
@@ -57,7 +60,7 @@ const Services = () => {
             <div className=" h-0.5 w-10 bg-primary"></div>
           </div>
         </div>
-      </div>
+      </section>
       <div className="service-container ">
         <div className=" service-text-container">
           <div className="flex space-x-2 items-center">

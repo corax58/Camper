@@ -8,13 +8,17 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row space-y-5  justify-between pt-16 px-10 ">
         <div className="flex  flex-col text-white space-y-5">
           <div className="text-2xl font-semibold capitalize">STAY INFORMED</div>
-          <div>
+          <form
+            onSubmit={() => {
+              window.alert("Thank you");
+            }}
+          >
             <input
               type="text"
               placeholder="my email "
               className=" bg-inherit border-b border-white "
             />
-          </div>
+          </form>
         </div>
         <div className="flex flex-col space-y-2">
           <p className=" text-xl text-primary font-semibold">Information</p>
