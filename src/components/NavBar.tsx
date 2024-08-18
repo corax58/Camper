@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
-import { FaBurger } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
 
 const NavBar = () => {

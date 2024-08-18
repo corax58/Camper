@@ -1,6 +1,5 @@
-import React from "react";
 import { CgCopyright } from "react-icons/cg";
-import { FaMailBulk, FaMailchimp, FaPhone } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 
 const Footer = () => {
