@@ -8,10 +8,13 @@ const Why = () => {
         <div className=" flex flex-col items-center justify-center md:text-center text-justify font-light px-10 ">
           <p>
             {" "}
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            <br /> Culpa ratione vero possimus necessitatibus totam, dignissimos
-            at esse ab explicabo optio non sed. <br />
-            Corrupti quaerat pariatur molestias voluptates laborum, hic culpa!
+            We thoroughly take care of each of our clients and thier comfort
+            during each trip.
+            <br />
+            Our company is a partner of more than a thousand hotels across a the
+            country, <br />
+            where our customers will be provided with special favorable
+            conditions.
           </p>
         </div>
       </div>
@@ -32,8 +35,8 @@ const Why = () => {
           <p className="text-2xl font-serif">Comfortable Vans</p>
           <div className="flex flex-col items-center font-light">
             {" "}
-            <p>We have over 10000 happy customers</p>{" "}
-            <p> Who have already used the services of CAMPER</p>
+            <p>Our vans are equipped with all the necessary amenities </p>{" "}
+            <p>for a comfortable journey</p>
           </div>
         </div>
         <div className="flex flex-col items-center space-y-4">
@@ -42,8 +45,8 @@ const Why = () => {
           <p className="text-2xl font-serif">Completed Tours</p>
           <div className="flex flex-col items-center font-light">
             {" "}
-            <p>We have over 10000 happy customers</p>{" "}
-            <p> Who have already used the services of CAMPER</p>
+            <p>We have already organized 4560 tours in 86 cities</p>{" "}
+            <p> and more than 450 landmarks</p>
           </div>
         </div>
       </div>
